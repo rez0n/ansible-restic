@@ -7,6 +7,10 @@
 [![Ansible Role](https://img.shields.io/badge/ansible%20role-paulfantom.restic-blue.svg)](https://galaxy.ansible.com/paulfantom/restic/)
 [![GitHub tag](https://img.shields.io/github/tag/paulfantom/ansible-restic.svg)](https://github.com/paulfantom/ansible-restic/tags)
 
+## IMPORTANT - Project archived
+
+Project is archived due to my lack of interest in maintaining it (I am not using it anymore). I will happily unarchive it if anyone is interested in maintaining it. If you are such person, write me an email at paulfantom@gmail.com.
+
 ## Description
 
 Deploy [restic](https://restic.net/) - fast, secure, efficient backup program.
@@ -22,7 +26,7 @@ All variables which can be overridden are stored in [defaults/main.yml](defaults
 
 | Name           | Default Value | Description                        |
 | -------------- | ------------- | -----------------------------------|
-| `restic_version` | 0.9.5 | restic package version. Also accepts latest as parameter. |
+| `restic_version` | 0.9.6 | restic package version. Also accepts latest as parameter. |
 | `restic_user` | "root" | system user to run restic |
 | `restic_group` | "root" | system group to run restic |
 | `restic_shell` | "/bin/false" | the shell for the restic user, change this if you want to be able to su to it |
